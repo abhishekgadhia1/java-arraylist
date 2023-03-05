@@ -4,14 +4,7 @@ public class ArrayList {
     public static void main(String[] args) {
     	
     	
-    	Employee e1 = new Employee(1,26,"Abhishek",new Address("Ahmedabad",111));
-    	Employee e2 = new Employee(2,25,"Chinmay",new Address("Hyderabad",222));
     	
-    	List<Employee> empList = new ArrayList();
-    	empList.add(e1);
-    	empList.add(e2);
-
-    	System.out.println(empList);
     
     }
 }
